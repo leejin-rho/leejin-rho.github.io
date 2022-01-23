@@ -1,0 +1,93 @@
+.background {
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+#login-form {
+    position: absolute;
+    top : 30px;
+    left: 35px;
+}
+
+#greeting {
+    position: absolute;
+    top : 30px;
+    left: 35px;
+    font-family: "DUNGGEUNMO", "Times New Roman", serif;
+    color: white;
+    text-shadow:1px 1px 1px #000;
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-family: "DUNGGEUNMO", "Times New Roman", serif;
+    color: white;
+    text-shadow:1px 1px 1px #000;
+}
+
+#todo {
+    height: 80%;
+    width: 25%;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right : 5%;
+    color: white;    
+    text-shadow:1px 1px 1px #000;
+    align-content: center;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#todo-form {
+    top : 10%;
+    position: absolute;
+    left : 30%;
+    text-align:center; 
+}
+
+#todo-title { 
+    font-family: "DUNGGEUNMO", "Times New Roman", serif;
+    
+}
+
+#todo-list {
+    position: absolute;
+    top : 17%;
+    left : 30%;
+    margin:0 auto; 
+    font-family: "COOPERBLACKSTD-ITALIC", "Times New Roman", serif;
+}
+
+#weather {
+    position: absolute;
+    top : 95%;
+    left: 15px;
+    font-family: "COOPERBLACKSTD-ITALIC", "Times New Roman", serif;
+    font-display: bold;
+    color: white;
+
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+  background-color:transparent;
+  color: white;
+}
+
+input,
+button{
+    background-color:transparent;
+    border:none;
+    color: white;
+}
